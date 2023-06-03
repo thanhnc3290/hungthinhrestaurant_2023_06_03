@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./assets/css/index.css" type="text/css">
+    <style id="my_css"></style>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            
+        }else{
+            var my_css = ':root {font-size: 2rem!important;}';
+            document.getElementById('my_css').innerHTML = my_css;
+            console.log('update css for pc');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div id="header_menu_button" class="header_menu_button" onclick="tongle_main_menu()"></div>
+        <div class="header_logo">
+            <a href="#"><img src="./assets/images/header_logo.webp" class="header_logo_image"/></a>
+        </div>
+        <div class="header_hotline_button">
+            <a href="tel:0386.343.898">
+                <img src="./assets/images/header_hotline_button_image.webp" class="header_hotline_button_image"/>
+                <span class="header_hotline_button_text">Đặt Bàn</span>
+                <span class="header_hotline_button_hotline">0386.343.898</span>
+            </a>
+        </div>
+    </header>
+    <div id="main_menu" class="main_menu" style="display: none;">
+        <div id="main_menu_contain" class="main_menu_contain">
+            
+        </div>
+        <div id="main_menu_contain_outside" class="main_menu_contain_outside" onclick="close_main_menu()"></div>
+    </div>
+    <section id="section_1">
+        <div class="slideshow-container">
+            <div class="mySlides"><img src="./assets/images/slider_1.webp"/></div>
+            <div class="mySlides"><img src="./assets/images/slider_1.webp"/></div>
+            <span class="prev" onclick="plusSlides(-1)">❮</span>
+            <span class="next" onclick="plusSlides(1)">❯</span>
+        </div>
+    </section>
+    <section id="section_2">
+        <div class="section_2_contain">
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_1.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Nhận đặt món</div>
+                </a>
+            </div>
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_2.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Đặt xuất ăn gia đình</div>
+                </a>
+            </div>
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_3.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Đặt bàn theo đoàn</div>
+                </a>
+            </div>
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_4.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Đặt bàn theo tour</div>
+                </a>
+            </div>
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_5.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Nhận tổ chức sự kiện</div>
+                </a>
+            </div>
+            <div class="section_2_button">
+                <a href="#" class="black_text">
+                    <div class="section_2_button_image_area">
+                        <img src="./assets/images/section_2_button_image_6.webp" class="section_2_button_image"/>
+                    </div>
+                    <div class="section_2_button_text">Xem thêm<br/></div>
+                </a>
+            </div>
+        </div>
+        <div class="section_2_contain_end"></div>
+    </section>
+    <section id="section_3">
+        <h2 class="h2_title">Giới thiệu nhà hàng</h2>
+        <div class="section_3_contain">
+            <div class="section_3_image_area">
+                <img src="./assets/images/section_3_image_area.webp" alt="" class="" />
+            </div>
+            <div class="section_3_item_list">
+                <div class="section_3_item_line">
+                    <div class="section_3_item_line_number">1</div>
+                    <div class="section_3_item_line_text">Đến với HƯNG THỊNH  nhà hàng Hải Sản cao cấp tươi ngon, thực khách sẽ được trải nghiệm ẩm thực hài lòng và trọn vẹn nhất với mức giá hợp lý.</div>
+                </div>
+                <div class="section_3_item_line">
+                    <div class="section_3_item_line_number">2</div>
+                    <div class="section_3_item_line_text">Ẩm thực biển đúng chất với hải sản thượng hạng tươi nguyên, tự tay lựa chọn từ chính bể hải sản, đa dạng loại và nhiều cách chế biển khác nhau.</div>
+                </div>
+                <div class="section_3_item_line">
+                    <div class="section_3_item_line_number">3</div>
+                    <div class="section_3_item_line_text">Đặc biệt không gian đậm chất biển cả, làng chài với diện tích cực rộng, vừa hiện đại vừa truyền thống mà không kém phần tinh tế khiến bất cứ ai cũng muốn một lần dùng bữa tại đây. Phóng tầm mắt là view biển, vừa thưởng thức món ăn ngon lại được tận hưởng cảnh đẹp.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_4">
+        <div class="section_4_image_area">
+            <img src="./assets/images/section_4_image.webp" alt="" class="" />
+        </div>
+        <div class="section_4_contain">
+            <h2 class="h2_title" style="width: 15rem;">Dịch vụ nhà hàng</h2>
+            <div class="section_4_item">
+                <div class="section_4_item_detail">
+                    <h3 class="section_4_item_title">Thực đơn đa dạng</h3>
+                    <div class="section_4_item_short_desc">Ẩm thực biển đúng chất với hải sản thượng hạng tươi nguyên, tự tay lựa chọn từ chính bể hải sản, đa dạng loại và nhiều cách chế biển khác nhau.</div>
+                    <a href="#" class="section_4_item_readmore">Xem Thêm ></a>
+                    <img src="./assets/images/section_4_image_1.webp" class="section_4_item_thumnail" alt=""/>
+                </div>
+            </div>
+            <div class="section_4_item">
+                <div class="section_4_item_detail">
+                    <h3 class="section_4_item_title">Không gian nhà hàng</h3>
+                    <div class="section_4_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Vừa hiện đại vừa truyền thống mà không kém phần tinh tế khiến bất cứ ai cũng muốn một lần dùng bữa tại đây.</div>
+                    <a href="#" class="section_4_item_readmore">Xem Thêm ></a>
+                    <img src="./assets/images/section_4_image_2.webp" class="section_4_item_thumnail" alt=""/>
+                </div>
+            </div>
+            <div class="section_4_item">
+                <div class="section_4_item_detail">
+                    <h3 class="section_4_item_title">100% View biển hải tiến</h3>
+                    <div class="section_4_item_short_desc">Phóng tầm mắt là view biển, vừa thưởng thức món ăn ngon lại được tận hưởng cảnh đẹp biển HẢI TIẾN thì còn gì bằng.</div>
+                    <a href="#" class="section_4_item_readmore">Xem Thêm ></a>
+                    <img src="./assets/images/section_4_image_3.webp" class="section_4_item_thumnail" alt=""/>
+                </div>
+            </div>
+            <div class="section_4_item">
+                <div class="section_4_item_detail">
+                    <h3 class="section_4_item_title">Bảng giá menu niêm yết</h3>
+                    <div class="section_4_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Bảng giá menu được niêm yết cho từng món.</div>
+                    <a href="#" class="section_4_item_readmore">Xem Thêm ></a>
+                    <img src="./assets/images/section_4_image_4.webp" class="section_4_item_thumnail" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_5">
+        <div class="section_5_image_area">
+            <img src="./assets/images/section_5_image.webp" class="" alt=""/>
+        </div>
+        <h2 class="h2_title">khách hàng đánh giá</h2>
+        <div class="section_5_contain">
+            <div class="slideshow-container">
+                <div class="mySlides_2">
+                  <img src="./assets/images/slider_khach_hang_1.webp">
+                </div>
+                <div class="mySlides_2">
+                    <img src="./assets/images/slider_khach_hang_1.webp">
+                </div>
+                <div class="mySlides_2">
+                    <img src="./assets/images/slider_khach_hang_1.webp">
+                </div>
+                <span class="prev" onclick="plusSlides_2(-1)">&#10094;</span>
+                <span class="next" onclick="plusSlides_2(1)">&#10095;</span>
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide_2(1)"></span>
+                <span class="dot" onclick="currentSlide_2(2)"></span>
+                <span class="dot" onclick="currentSlide_2(3)"></span>
+              </div>
+        </div>
+    </section>
+    <section id="section_6">
+        <h2 class="h2_title">hình ảnh nhà hàng</h2>
+        <div class="section_6_contain">
+            <img src="./assets/images/section_6_image_1.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_2.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_3.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_4.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_5.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_6.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_7.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_8.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_9.webp" class="section_6_image" alt=""/>
+            <img src="./assets/images/section_6_image_10.webp" class="section_6_image" alt=""/>
+        </div>
+    </section>
+    <section id="section_7">
+        <h2 class="h2_title_custom">đăng ký đặt bàn</h2>
+        <div class="section_7_contain">
+            <form action="#" method="post">
+                <div class="section_7_form_input">
+                    <div class="section_7_form_input_label">Họ tên</div>
+                    <div class="section_7_form_input_text">
+                        <input type="text" class="section_7_form_input_tag" name="input_form_name" value="" placeholder="" required />
+                    </div>
+                </div>
+                <div class="section_7_form_input">
+                    <div class="section_7_form_input_label">Số điện thoại</div>
+                    <div class="section_7_form_input_text">
+                        <input id="input_form_phone" type="text" class="section_7_form_input_tag" name="input_form_phone" value="" placeholder="vui lòng nhập số điện thoại chính xác" required />
+                    </div>
+                </div>
+                <div class="section_7_form_input">
+                    <div class="section_7_form_input_label">Ngày đặt</div>
+                    <div class="section_7_form_input_text">
+                        <input type="date" class="section_7_form_input_tag" name="input_form_date" value="" placeholder="" required />
+                    </div>
+                </div>
+                <div class="section_7_form_input">
+                    <div class="section_7_form_input_label">Số người</div>
+                    <div class="section_7_form_input_text">
+                        <input type="number" class="section_7_form_input_tag" name="input_form_person" value="" placeholder="" required />
+                    </div>
+                </div>
+                <div class="section_7_form_select">
+                    <div class="section_7_form_select_label">dịch vụ nhà hàng</div>
+                    <div class="section_7_form_select_text">
+                        <select id="input_form_service" name="input_form_service" class="section_7_form_select_tag" required>
+                            <option value="">Vui lòng chọn dịch vụ</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="section_7_form_submit">
+                    <button type="submit" class="section_7_form_submit_button">Đăng ký</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <section id="section_8">
+        <h2 class="h2_title">tin tức</h2>
+        <div class="section_8_contain">
+            <div class="slideshow-container">
+                <div class="mySlides_3 section_8_slider_item">
+                    <div class="section_8_item">
+                        <img src="./assets/images/section_8_item_1.webp" class="section_8_item_thumbnail" alt="" />
+                        <div class="section_8_title_area">
+                            <h3 class="section_8_item_title">không gian nhà hàng đậm chất biển cả, làng chài với...</h3>
+                        </div>
+                        <div class="section_8_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Vừa hiện đại vừa truyền thống mà không kém phần...</div>
+                        <a href="" class="section_8_item_readmore">Xem Thêm</a>
+                    </div>
+                    <div class="section_8_item">
+                        <img src="./assets/images/section_8_item_1.webp" class="section_8_item_thumbnail" alt="" />
+                        <div class="section_8_title_area">
+                            <h3 class="section_8_item_title">không gian nhà hàng đậm chất biển cả, làng chài với...</h3>
+                        </div>
+                        <div class="section_8_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Vừa hiện đại vừa truyền thống mà không kém phần...</div>
+                        <a href="" class="section_8_item_readmore">Xem Thêm</a>
+                    </div>
+                </div>
+                <div class="mySlides_3 section_8_slider_item">
+                    <div class="section_8_item">
+                        <img src="./assets/images/section_8_item_1.webp" class="section_8_item_thumbnail" alt="" />
+                        <div class="section_8_title_area">
+                            <h3 class="section_8_item_title">không gian nhà hàng đậm chất biển cả, làng chài với...</h3>
+                        </div>
+                        <div class="section_8_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Vừa hiện đại vừa truyền thống mà không kém phần...</div>
+                        <a href="" class="section_8_item_readmore">Xem Thêm</a>
+                    </div>
+                    <div class="section_8_item">
+                        <img src="./assets/images/section_8_item_1.webp" class="section_8_item_thumbnail" alt="" />
+                        <div class="section_8_title_area">
+                            <h3 class="section_8_item_title">không gian nhà hàng đậm chất biển cả, làng chài với...</h3>
+                        </div>
+                        <div class="section_8_item_short_desc">Không gian đậm chất biển cả, làng chài với diện tích cực rộng, thoải mái tổ chức sự kiện. Vừa hiện đại vừa truyền thống mà không kém phần...</div>
+                        <a href="" class="section_8_item_readmore">Xem Thêm</a>
+                    </div>
+                </div>
+                
+                
+                <span class="prev section_8_control_icon" onclick="plusSlides_3(-1)">❮</span>
+                <span class="next section_8_control_icon" onclick="plusSlides_3(1)">❯</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo_footer">
+            <a href="" title="">
+                <img src="./assets/images/logo_footer.webp" alt="" class="logo_footer_image"/>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/myjs.js"></script>
+</body>
+</html>

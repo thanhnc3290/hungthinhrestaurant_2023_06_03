@@ -1,0 +1,496 @@
+/* @font-face {
+    font-family: 'UTM-Pierre';
+    src: url(../fonts/00157-UTM-Pierre.ttf);
+}
+@font-face {
+    font-family: 'UTM-Cookies';
+    src: url(../fonts/00067-UTM-Cookies.ttf);
+} */
+@font-face {
+    font-family: 'UVN-GIONGSONG';
+    src: url(../fonts/unicode.publish.UVNGiongSong_BI.TTF);
+}
+:root{
+    font-size: 1.45rem;
+}
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body{
+    width: 16rem!important;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 2.5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration:unset;
+}
+footer{
+    background-color: #8d7535;
+    height: 10rem;
+}
+.logo_footer{
+
+}
+.logo_footer_image{
+    width: 7rem;
+    height: 2rem;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.header_menu_button{
+    position: absolute;
+    background-image: url(../images/header_menu_button.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.25rem;
+}
+.header_logo{
+    position: absolute;
+    margin-left: 2rem;
+    width: 8rem;
+    margin-top: 0.15rem;
+}
+.header_logo_image{
+    width: 8rem;
+    height: 2.25rem;
+    object-fit: contain;
+    object-position: center;
+}
+.header_hotline_button{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 0.65rem;
+    background: #8d7535;
+    width: 5.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+}
+.header_hotline_button_image{
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.125rem;
+    margin-top: 0.125rem;
+    object-fit: contain;
+    object-position: center;
+}
+.header_hotline_button_text{
+    position: absolute;
+    color: white;
+    font-size: 0.5rem;
+    font-family: 'UVN-GIONGSONG';
+    margin-left: 1.4rem;
+}
+.header_hotline_button_hotline{
+    color: white;
+    font-size: 0.55rem;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 1.4rem;
+    margin-top: 0.75rem;
+}
+.main_menu{
+    width: 16rem;
+    height: 100vh!important;
+    background: #17171799;
+    position: absolute;
+    z-index: 1;
+}
+.main_menu_contain{
+    height: 100vh;
+    background: #8d7535;
+    width: 13rem;
+    display: inline-block;
+}
+.main_menu_contain_outside{
+    height: 100vh;
+    background: transparent;
+    width: 2.65rem;
+    display: inline-block;
+}
+#section_1{}
+#section_2{}
+.black_text{color:black;}
+.section_2_contain{
+
+}
+.section_2_button{
+    display: inline-flex;
+    width: 5rem;
+    margin: auto;
+    text-align: center;
+    font-size: 0.65rem;
+}
+.section_2_button_image_area{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+    background: #8d7535;
+    border-radius: 4rem;
+}
+.section_2_button_image{
+    margin-top: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+.section_2_button_text{
+    height: 1.5rem;
+    margin: 0.25rem;
+}
+.section_2_contain_end{
+    height: 0.75rem;
+    background-image: linear-gradient(180deg, #00000040, #00000014, transparent);
+}
+#section_3{}
+.h2_title{
+    background-image: url(../images/h2_title.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 16rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.section_3_image_area{
+    width: 16rem;
+}
+.section_3_image_1{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+}
+.section_3_image_2{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+}
+.section_3_item_list{
+    margin: 0.25rem 0.5rem;
+}
+.section_3_item_line_number{
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: linear-gradient(180deg, #1773aa, #53746e, #87753b);
+    border-radius: 1.25rem;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+}
+.section_3_item_line_text{
+    margin-left: 1.5rem;
+    font-size: 0.5rem;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+}
+#section_4{}
+.section_4_image_area{}
+.section_4_contain{
+    width: 15rem;
+    background: white;
+    margin-top: -3rem;
+    position: relative;
+    margin-left: 0.5rem;
+    border-radius: 0.25rem;
+}
+.section_4_item{
+    width: 15rem;
+    padding-bottom: 1.5rem;
+}
+.section_4_item_detail{
+    border: solid #8d7535 0.075rem;
+    padding: 0 0.5rem;
+    height: 6rem;
+}
+.section_4_item_title{
+    background: white;
+    position: absolute;
+    font-size: 0.525rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #8d7535;
+    margin-top: -0.35rem;
+    margin-left: -0.1rem;
+    padding: 0 0.25rem;
+}
+.section_4_item_short_desc{
+    font-size: 0.45rem;
+    width: 7.5rem;
+    text-align: justify;
+    margin-top: 0.75rem;
+    font-weight: 100;
+    height: 3.5rem;
+    line-height: 0.6rem;
+}
+.section_4_item_readmore{
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    color: #8d7535;
+    font-weight: 100;
+}
+.section_4_item_thumnail{
+    width: 6rem;
+    height: 6rem;
+    margin-top: -5.5rem;
+    margin-left: 8rem;
+    object-fit: contain;
+    object-position: center;
+}
+#section_5{
+    padding-bottom: 1rem;
+}
+.section_5_image_area{}
+#section_6{
+    padding-top: 0.5rem;
+    background-color: #eee4da;
+    padding-bottom:0.5rem;
+}
+.section_6_contain{
+    width: 15rem;
+    margin: auto;
+}
+.section_6_image{
+    margin-left: 0.15rem;
+    width: 7.1rem;
+    height: 5rem;
+    display: inline-block;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 0.5rem;
+}
+#section_7{
+    width: 16rem;
+    height: 12.85rem;
+    background-image: url(../images/section_7_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top:0.5rem;
+}
+.section_7_contain{
+    width: 15rem;
+    margin:auto;
+}
+.h2_title_custom{
+    background-image: url(../images/h2_title_custom.webp);
+    color:#424242;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 16rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.section_7_form_input{}
+.section_7_form_input_label{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-weight: 100;
+    margin-top: 0.55rem;
+    margin-left: 1rem;
+}
+.section_7_form_input_text{
+    padding-left: 5rem;
+}
+.section_7_form_input_tag{
+    width: 9rem;
+    background: #cccccc4f;
+    border-radius: 0.25rem;
+    border: solid 0.05rem #64521a;
+    line-height: 0.75rem;
+}
+
+input[type='text'],input[type='date'],input[type='number']{
+    padding-left:0.5rem;
+}
+.section_7_form_select{
+
+}
+.section_7_form_select_label{
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-weight: 100;
+    margin-top: 0.55rem;
+    margin-left: 1rem;
+}
+.section_7_form_select_tag{
+    width: 13rem;
+    line-height: 0.75rem;
+    height: 0.9rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    background: #cccccc4f;
+    padding-left: 0.5rem;
+}
+.section_7_form_submit_button{
+    width: 13rem;
+    margin-left: 1rem;
+    line-height: 0.75rem;
+    border-radius: 0.25rem;
+    border: solid 0.05rem transparent;
+    text-transform: uppercase;
+    color: white;
+    background: #64521a;
+}
+.section_8_slider_item{
+    margin-left: 0.5rem;
+}
+.section_8_item{
+    display: inline-block;
+    width: 7.5rem;
+}
+.section_8_item_thumbnail{
+    width: 7.5rem;
+    height: 7.5rem;
+    object-fit: contain;
+    object-position: center;
+}
+.section_8_title_area{
+    height: 2.5rem;
+}
+.section_8_item_title{
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #8d7535;
+}
+.section_8_item_short_desc{
+    font-size: 0.5rem;
+    text-align: justify;
+    height: 3rem;
+}
+.section_8_item_readmore{
+    font-size: 0.45rem;
+    text-transform: uppercase;
+    color: #8d7535;
+    font-weight: 100;
+}
+.section_8_control_icon{
+    background-color: white;
+    width: 1.5rem!important;
+    height: 1.5rem;
+    border-radius: 1.5rem!important;
+    line-height: 0.5rem;
+    font-size: 0.5rem!important;
+    margin-top: -0.8rem!important;
+    padding: 0.5rem!important;
+    text-align: center;
+    color: #8d7535!important;
+    border: solid 0.05rem;
+}
+
+input::-webkit-input-placeholder { /* Edge */
+    color: #e4dede;
+}
+/* css slider */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 0.5rem;
+    width: 1.5rem;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 0.5rem;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #8d7535;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
