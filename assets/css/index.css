@@ -34,11 +34,12 @@ a{
 }
 footer{
     background-color: #8d7535;
-    height: 10rem;
+    height: 15rem;
 }
 .logo_footer{
 
 }
+.white_text{color:white;}
 .logo_footer_image{
     width: 7rem;
     height: 2rem;
@@ -46,6 +47,51 @@ footer{
     margin-left: 1rem;
     margin-top: 0.5rem;
 }
+.footer_line_1{
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer_line_1_end{
+    height: 0.25rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+    background: #cbc0a2;
+    border-radius: 0.5rem;
+}
+.footer_containt{
+    margin: 0.5rem 0 0.75rem 0;
+}
+.footer_containt_line{
+    margin: 0.25rem 0;
+}
+.footer_containt_line_image{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+    object-fit: contain;
+    object-position: center;
+}
+.footer_containt_line_text{
+    color: white;
+    font-size: 0.4rem;
+    margin-left: 2.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.footer_containt_fanpage_image{
+    width: 11rem;
+    height: 5rem;
+    object-fit: contain;
+    object-position: center;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+
 .header_menu_button{
     position: absolute;
     background-image: url(../images/header_menu_button.webp);
